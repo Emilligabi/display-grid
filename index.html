@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <link rel="stylesheet" href="/css/reset.css">
+  <link rel="stylesheet" href="/css/grid.css">
+</head>
+<body>
+
+<section>
+  <header>display: grid</header>
+  <div class="grid">
+    <div class="item red"></div>
+    <div class="item green"></div>
+    <div class="item blue"></div>
+    <div class="item yellow"></div>
+    <div class="item dark"></div>
+</section>
+
+<section>
+  <header>display: grid;
+    grid-template-columns: 1fr 1fr 1fr
+  </header>
+  <div class="grid grid-3-columns">
+    <div class="item red"></div>
+    <div class="item green"></div>
+    <div class="item blue"></div>
+    <div class="item yellow"></div>
+    <div class="item dark"></div>
+</section>
+
+<section>
+  <header>display: grid;
+    grid-template-rows: 3rem 2.5rem 3rem 2.5rem 4rem
+  </header>
+  <div class="grid grid-5-rows">
+    <div class="item red"></div>
+    <div class="item green"></div>
+    <div class="item blue"></div>
+    <div class="item yellow"></div>
+    <div class="item dark"></div>
+</section>
+
+<section>
+  <header>display: grid;
+    grid-template-columns: 1fr 1fr 1fr
+    grid-template-rows: 3rem 2.5rem 3rem 2.5rem 4rem
+  </header>
+  <div class="grid grid-3-columns grid-5-rows">
+    <div class="item red"></div>
+    <div class="item green"></div>
+    <div class="item blue"></div>
+    <div class="item yellow"></div>
+    <div class="item dark"></div>
+</section>
+
+<section>
+  <header>display: grid; gap: 1rem</header>
+  <div class="grid gap">
+    <div class="item red"></div>
+    <div class="item green"></div>
+    <div class="item blue"></div>
+    <div class="item yellow"></div>
+    <div class="item dark"></div>
+</section>
+
+<section>
+  <header>
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: 1fr 1fr 1fr
+  </header>
+  <div class="grid gap grid-3-columns">
+    <div class="item red"></div>
+    <div class="item green"></div>
+    <div class="item blue"></div>
+    <div class="item yellow"></div>
+    <div class="item dark"></div>
+</section>
+
+</body>
+</html>

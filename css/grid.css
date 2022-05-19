@@ -1,0 +1,60 @@
+body {
+  display: grid;
+  gap: 2rem;
+  place-content: center;
+  padding: 5rem 0;
+  background: #121221;
+}
+
+section {
+  background: #ffffff;
+  border-radius: 1rem;
+}
+
+section > header {
+  padding: 1rem;
+  font-family: monospace;
+}
+
+.item {
+  min-width: 2rem;
+  min-height: 2rem;
+  border-radius: .25rem;
+}
+
+.item.red {
+  background: crimson;
+}
+
+.item.green {
+  background: mediumspringgreen;
+}
+
+.item.blue {
+  background: royalblue;
+}
+
+.item.yellow {
+  background: gold;
+}
+
+.item.dark {
+  background: dimgray;
+}
+
+.grid {
+  display: grid;
+  padding: 1rem;
+}
+
+.grid-3-columns {
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.grid-5-rows {
+grid-template-rows: 3rem 2.5rem 3rem 2.5rem 4rem;
+}
+
+.gap {
+  gap: 1rem;
+}
